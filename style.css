@@ -27,7 +27,14 @@ nav button {
   border: none;
   cursor: pointer;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+}
+
+nav button.active {
+    background-color: rgb(26, 238, 26);
+    color: #fff;
 }
 
 .container {
